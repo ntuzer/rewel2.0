@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!--
+
+______ _____ _    _ _____ _           _____ _____
+\ ___ \  ___| |  | |  ___| |         |_   _|  _  \
+| |_/ / |__ | |  | | |__ | |           | | | | | |
+|    /|  __|| |/\| |  __|| |           | | | | | |
+| |\ \| |___\  /\  / |___| |____  _   _| |_\ \_/ /
+\_| \_\______\/  \/\_____\_____/ (_) |_____|\___/
+
+
+    Thank you for visiting! :)
+
+    https://www.linkedin.com/in/rewelgarcia
+    https://www.github.com/ntuzer
+
+    This website was built using React Redux and Ruby on Rails.
+
+    -->
+
+
+
+
+    <title>Rewel20</title>
+    <%= csrf_meta_tags %>
+    <link href="https://fonts.googleapis.com/css?family=Caveat:700|Nothing+You+Could+Do|Sigmar+One|Indie+Flower|PT+Sans|Shadows+Into+Light" rel="stylesheet">
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119560312-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119560312-1');
+    </script>
+
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
